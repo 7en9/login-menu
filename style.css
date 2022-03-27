@@ -11,7 +11,6 @@
 
 .container {
   display: flex;
-  position: relative;
   justify-content: center;
 }
 
@@ -32,7 +31,7 @@
 
 .container__left-txt {
   position: absolute;
-  top: 600px;
+  top: 640px;
   left: 80px;
   width: 375px;
 }
@@ -85,6 +84,11 @@
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 8px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #3dc1d3;
 }
 
 .container__right-bottom {
@@ -146,8 +150,9 @@
 
 .vector-img {
   position: absolute;
-  top: 30px;
+  top: 35px;
   right: 10px;
+  cursor: pointer;
 }
 
 .container__right-button {
@@ -158,6 +163,7 @@
   font-size: 13px;
   line-height: 20px;
   border: none;
+  cursor: pointer;
 }
 
 .name-form {

@@ -15,7 +15,7 @@
     <div class="container">
       <div class="container__left">
         <div class="container__left-txt">
-          <h1 class="container__left-h1">Your machines are under control</h1>
+          <p class="container__left-h1">Your machines are under control</p>
           <p class="container__left-p">
             Porttitor quis aliquam blandit nibh consequat condimentum. Blandit
             elit cursus cursus augue. Sit commodo enim mi eget mattis amet id.
@@ -33,7 +33,7 @@
             <a class="container__right-link" href="#">Sign up</a>
           </div>
 
-          <form action="action_page" method="POST">
+          <form>
             <div class="container__right-form">
               <div class="top-gmail">
                 <label for="gmail">Email</label>
@@ -48,11 +48,22 @@
               <div class="name-form">
                 <div class="first-name">
                   <label for="first-name">First name</label>
-                  <input class="name-form-first" type="text" name="first-name" placeholder="Max"/>
+                  <input
+                    class="name-form-first"
+                    type="text"
+                    name="first-name"
+                    placeholder="First name"
+                  />
                 </div>
+
                 <div class="last-name">
                   <label for="last-name">Last name</label>
-                  <input class="name-form-last" type="text" name="last-name" placeholder="Musterman">
+                  <input
+                    class="name-form-last"
+                    type="text"
+                    name="last-name"
+                    placeholder="Last name"
+                  />
                 </div>
               </div>
 
@@ -64,14 +75,14 @@
                   placeholder="Password"
                   name="password"
                 />
-                <img class="vector-img" src="/img/vector.png" />
+                <img class="vector-img" src="img/vector.png" />
               </div>
 
               <a class="container__right-password" type="password" href="#"
                 >Forgot password?</a
               >
 
-              <button class="container__right-button" type="submit">
+              <button class="container__right-button" type="button">
                 Log in
               </button>
             </div>
