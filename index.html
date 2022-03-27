@@ -27,7 +27,7 @@
           <div class="container__right-img"><img src="img/g12.png" /></div>
 
           <div class="container__right-top">Log in</div>
-          
+
           <div class="container__right-bottom">
             <p class="container__right-p">New user?</p>
             <a class="container__right-link" href="#">Sign up</a>
@@ -35,26 +35,45 @@
 
           <form action="action_page" method="POST">
             <div class="container__right-form">
-              <label class="text-label" for="gmail">Email</label>
-              <input
-                class="input-top"
-                type="text"
-                placeholder="example@domain.com"
-                name="gmail"
-              />
+              <div class="top-gmail">
+                <label for="gmail">Email</label>
+                <input
+                  class="input-top"
+                  type="text"
+                  placeholder="example@domain.com"
+                  name="gmail"
+                />
+              </div>
 
-              <label class="password-label" for="password">Password</label>
-              <input
-                class="input-bottom"
-                type="password"
-                placeholder="Password"
-                name="password"
-              />
-              <a class="container__right-password" type="password" href=""
+              <div class="name-form">
+                <div class="first-name">
+                  <label for="first-name">First name</label>
+                  <input class="name-form-first" type="text" name="first-name" placeholder="Max"/>
+                </div>
+                <div class="last-name">
+                  <label for="last-name">Last name</label>
+                  <input class="name-form-last" type="text" name="last-name" placeholder="Musterman">
+                </div>
+              </div>
+
+              <div class="bottom-password">
+                <label for="password">Password</label>
+                <input
+                  class="input-bottom"
+                  type="password"
+                  placeholder="Password"
+                  name="password"
+                />
+                <img class="vector-img" src="/img/vector.png" />
+              </div>
+
+              <a class="container__right-password" type="password" href="#"
                 >Forgot password?</a
               >
 
-              <button class="container__right-button" type="submit">Log in</button>
+              <button class="container__right-button" type="submit">
+                Log in
+              </button>
             </div>
           </form>
         </div>

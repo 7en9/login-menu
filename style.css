@@ -12,6 +12,7 @@
 .container {
   display: flex;
   position: relative;
+  justify-content: center;
 }
 
 /*CONTAINER LEFT STYLES*/
@@ -131,13 +132,22 @@
   margin-bottom: 20px;
 }
 
-.input-bottom {
-  margin-bottom: 8px;
+.bottom-password {
+  position: relative;
 }
 
-.text-label,
-.password-label {
-  margin-bottom: 5px;
+.input-top {
+  margin-top: 5px;
+}
+
+.input-bottom {
+  margin: 5px 0 8px 0;
+}
+
+.vector-img {
+  position: absolute;
+  top: 30px;
+  right: 10px;
 }
 
 .container__right-button {
@@ -148,4 +158,28 @@
   font-size: 13px;
   line-height: 20px;
   border: none;
+}
+
+.name-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.first-name {
+  margin-right: 16px;
+}
+
+.name-form-first,
+.name-form-last {
+  border: 1px solid #d8dde3;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 13px;
+  line-height: 20px;
+  width: 166px;
+  margin-top: 5px;
+}
+
+label {
+  font-size: 11px;
 }
